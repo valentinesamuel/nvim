@@ -18,7 +18,6 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-    { import = "lazyvim.plugins.extras.util.persistence" },
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.dap.nlua" },   -- optional: lua debug
       { import = "lazyvim.plugins.extras.dap.core" },   -- DAP core
